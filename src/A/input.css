@@ -1,0 +1,24 @@
+input{
+    height: 33px;
+    width: 205px;
+    font-weight: bold;
+    text-align: center;
+    margin: 1%;
+}
+button{
+    cursor: pointer;
+}
+
+.falling-button {
+    animation: falling 1s linear infinite;
+    cursor: pointer;
+  }
+  
+  @keyframes falling {
+    from {
+      transform: translateY(-34%);
+    }
+    to {
+      transform: translateY(50%);
+    }
+  }
